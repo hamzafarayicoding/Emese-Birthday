@@ -1,0 +1,146 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  color: #fff;
+}
+
+.overlay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 999;
+}
+
+.password-box {
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  color: #fff;
+}
+
+.password-box label {
+  display: block;
+  margin-bottom: 10px;
+  color: #ff0000;
+  font-weight: bold;
+  font-family: 'Bebas Neue', sans-serif;
+  text-transform: uppercase;
+}
+
+.password-box input {
+  width: 60%;
+  margin: 0 auto;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 2px solid #ff0000;
+  border-radius: 20px;
+  outline: none;
+  background: transparent;
+  color: #ff0000;
+  font-family: 'Bebas Neue', sans-serif;
+  text-transform: uppercase;
+}
+
+.password-box button {
+  display: block;
+  margin: 10px auto;
+  background: #333;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.clue {
+  margin-top: 10px;
+  text-align: center;
+  font-family: 'Gabarito', sans-serif;
+  color: #fff;
+}
+
+#content {
+  display: none;
+}
+
+header {
+  background-color: #000;
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+}
+
+main {
+  padding: 20px;
+}
+
+footer {
+  background-color: #000;
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+#bottom-image {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+
+#audio-player {
+  max-width: 400px;
+  margin: 0 auto;
+  background: linear-gradient(to bottom, #fff, #7a7a7a);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+audio {
+  width: 100%;
+  margin-top: 10px;
+}
+
+#birthday-message {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background: linear-gradient(to bottom, #606060, #464343);
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  color: #bbbbbb;
+  font-family: 'DynaPuff', serif;
+}
+
+#birthday-message h2 {
+  color: #000000;
+  text-shadow: -2px -2px 0 #fff, 2px -2px 0 #fff, -2px 2px 0 #fff,
+    2px 2px 0 #fff;
+}
+
+#birthday-message p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+#birthday-message blockquote {
+  margin-top: 20px;
+  font-style: italic;
+  color: #8d8b8b;
+}
+
+#birthday-message blockquote p {
+  margin: 0;
+}

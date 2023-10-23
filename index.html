@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./stylesheet.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DynaPuff&display=swap"
+      rel="stylesheet"
+    />
+    <title>Happy Birthday Emese</title>
+  </head>
+
+  <body>
+    <div id="password-overlay" class="overlay">
+      <div class="password-box">
+        <label for="password">Enter Password:</label>
+        <input
+          type="password"
+          id="password"
+          onkeydown="if (event.key === 'Enter') checkPassword()"
+        />
+      </div>
+      <div class="clue">
+        <p>Clue: Daddy</p>
+      </div>
+    </div>
+
+    <div id="content" style="display: none">
+      <header>
+        <img src="./logo.png" alt="Logo" style="max-width: 45%; height: auto" />
+      </header>
+
+      <main>
+        <div id="audio-player">
+          <audio controls id="custom-audio">
+            <source src="./awesome.mp3" type="audio/mp3" />
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+        <div id="birthday-message">
+          <h2>Boldog szülinapot, Emese!</h2>
+          <p>
+            Dear Emese,
+            <br />
+            On your special day, I wanted to let you know how much you mean to
+            me.
+            <br />
+            I created this song because, lately, I've been feeling like we don't
+            talk every day, but our connection is as strong as ever. We're more
+            than friends; we're like sisters.
+            <br />
+            Enjoy this day to the fullest, and may our bond continue to grow
+            stronger.
+          </p>
+          <blockquote>
+  <p>
+    I, you don't need, need to ever write<br />
+    I read the pages of your friendship at least a thousand times<br />
+    At least a thousand, least a thousand times<br />
+    Alright, alright, alright<br />
+    Why would you ever listen to people tryna hate on you?<br />
+    At least you know there's nothing new
+    <br /><br />
+    Stop everything you're doing now<br />
+    Cause bro, you're awesome, so awesome<br />
+    You look too good to be at in class<br />
+    You're the friend i know will last<br />
+    I hope you're ready for tonight<br />
+    gon cook boba you'll help me out<br />
+    You can't be still<br />
+    I gotta movе, I gotta dance<br />
+    I gotta livе, I gotta love<br />
+    I gotta laugh, I got a hope<br />
+    Cause bro, you're awesome
+    <br /><br />
+    You don't need to listen to your mother<br />
+    You're way too cool for them to handle you<br />
+    Bro, not for nothing, I know you're looking for something<br />
+    And I got it, I'm always here for you
+    <br /><br />
+    Cause I'd rather do nothing with you<br />
+    Than something with somebody new<br />
+    Yeah, I'd rather do nothing with you<br />
+    Than something with somebody new
+    <br /><br />
+    Stop everything you're doing now<br />
+    Cause bro you're awesome<br />
+    Don't let nobody bring you down<br />
+    You're so awesome<br />
+    You're so out the park<br />
+    You're so after dark<br />
+    You're so sleepless nights, ooh, it feels so right
+    <br /><br />
+    What's it take to call your sister<br />
+    Just to say you miss her and you wish you could spend time<br />
+    What's so serious that you can't just pick up the phone<br />
+    Let her know you love her and that she's been on your mind<br />
+    Tell her that you need your sister<br />
+    Ask her how he's doing<br />
+    And say you been doing fine<br />
+    If it comes a point where you just don't know what to say<br />
+    While you still have her on the line<br />
+    Just say
+    <br />
+    We'll be sister forever<br />
+    What happens to one of us, happens to us together<br />
+    And we'll be, sisters forever<br />
+    We'll be sisters forever<br />
+    We'll be sisters forever<br />
+    We'll be sisters forever<br />
+    And you know, you know, you know
+  </p>
+</blockquote>
+        </div>
+      </main>
+
+      <img src="./kitten.png" alt="Bottom Image" id="bottom-image" />
+
+      <footer>
+        <p>I Wish You The Best Pookie :3</p>
+      </footer>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
